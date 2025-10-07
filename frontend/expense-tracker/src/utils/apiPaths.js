@@ -22,7 +22,7 @@ export const API_PATHS = {
         DOWNLOAD_EXPENSE: "/api/v1/expense/downloadexcel",
     },
     IMAGE:{
-        UPLOAD_IMAGE: "/api/v1/expense/upload-image",
+        UPLOAD_IMAGE: "/api/v1/auth/upload-image",
     }
 };
 
