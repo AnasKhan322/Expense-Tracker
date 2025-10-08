@@ -49,19 +49,30 @@ A modern and intuitive **Expense Tracker** web application that helps you manage
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AnasKhan322/Expense-Tracker
+   git clone https://github.com/AnasKhan322/Expense-Tracker.git
    cd expense-tracker
 
-2. **Install dependencies**
-```bash
-  npm install
 
-3.**Set up environment variables**
+2. **Backend Setup**
    ```bash
-  MONGO_URI=your_database_url
-  JWT_SECRET=your_secret_key
+   cd backend
+   npm install
+   npm run dev
 
-4.**Run the app**
+3.**Frontend Setup**
    ```bash
-  npm run dev
-  
+   cd ../frontend/expense-tracker
+   npm install
+   npm run dev
+
+4.**Set up environment variables**
+   ```bash
+   MONGO_URI=your_database_url
+   JWT_SECRET=your_secret_key
+   PORT=8000
+
+
+
+
+
+
