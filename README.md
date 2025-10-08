@@ -59,13 +59,14 @@ A modern and intuitive **Expense Tracker** web application that helps you manage
    npm install
    npm run dev
 
-3.**Frontend Setup**
+3. **Frontend Setup**
    ```bash
    cd ../frontend/expense-tracker
    npm install
    npm run dev
 
-4.**Set up environment variables**
+
+4. **Set up environment variables**
    ```bash
    MONGO_URI=your_database_url
    JWT_SECRET=your_secret_key
