@@ -53,12 +53,15 @@ A modern and intuitive **Expense Tracker** web application that helps you manage
    cd expense-tracker
 
 2. **Install dependencies**
-   npm install
+```bash
+  npm install
 
 3.**Set up environment variables**
+   ```bash
   MONGO_URI=your_database_url
   JWT_SECRET=your_secret_key
 
 4.**Run the app**
+   ```bash
   npm run dev
   
